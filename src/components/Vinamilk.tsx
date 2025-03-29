@@ -18,11 +18,6 @@ export default function VinamilkUI() {
       <Section3 />
       <Section4 />
       <Section5 />
-
-      div
-        <div>
-          
-        </div>
     </div>
   )
 }
