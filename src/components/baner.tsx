@@ -12,35 +12,39 @@ export default function Baner () {
         <h2 className="font-bold text-5xl text-center">Luôn là chính mình.</h2>
         <div className="w-full pt-10">
           <ol>
-            <li className="border-solid border-b-2 border-indigo-700 p-6 ">
+            <li className="border-solid border-b-2 border-indigo-700 p-6 group relative group relative ">
               <span className="items-center">01</span>
               <span className="ml-16 font-medium hover:text-2xl p-4 transition-all duration-100">
-                Thông điệp từ giám đốc
+                Thông điệp từ giám đốc <span className='absolute right-0 top-1/2 opacity-0 group-hover:opacity-100'>↓</span>
               </span>
+
             </li>
-            <li className="border-solid border-b-2 border-indigo-700 p-6 ">
+            <li className="border-solid border-b-2 border-indigo-700 p-6 group relative ">
               <span className="items-center">02</span>
               <span className="ml-16 font-medium hover:text-2xl p-4 transition-all duration-100">
-                lời hứa Vinamilk
+                lời hứa Vinamilk <span className='absolute right-0 top-1/2 opacity-0 group-hover:opacity-100'>↓</span>
               </span>
+
             </li>
-            <li className="border-solid border-b-2 border-indigo-700 p-6">
+            <li className="border-solid border-b-2 border-indigo-700 p-6 group relative">
               <span className="items-center">03</span>
               <span className="ml-16 font-medium hover:text-2xl p-4 transition-all duration-100">
-                Những cột mốc không quên
+                Những cột mốc không quên <span className='absolute right-0 top-1/2 opacity-0 group-hover:opacity-100'>↓</span>
               </span>
             </li>
-            <li className="border-solid border-b-2 border-indigo-700 p-6">
+            <li className="border-solid border-b-2 border-indigo-700 p-6 group relative">
               <span className="items-center">04</span>
               <span className="ml-16 font-medium hover:text-2xl p-4 transition-all duration-50">
-                Người dẫn đường
+                Người dẫn đường <span className='absolute right-0 top-1/2 opacity-0 group-hover:opacity-100'>↓</span>
               </span>
+
             </li>
-            <li className="border-solid border-b-2 border-indigo-700 p-6">
+            <li className="border-solid border-b-2 border-indigo-700 p-6 group relative">
               <span className="items-center">05</span>
               <span className="ml-16 font-medium hover:text-2xl p-4 transition-all duration-100">
-                Cùng một nhà
+                Cùng một nhà <span className='absolute right-0 top-1/2 opacity-0 group-hover:opacity-100'>↓</span>
               </span>
+
             </li>
           </ol>
         </div>

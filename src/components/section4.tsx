@@ -1,4 +1,7 @@
+import { useState } from "react";
 export default function Section4 () {
+    const [Active, setActive] = useState("");
+  
     return (
         <>{/* Người dẫn đường */}
         <div className="md:py-28 sm:py-16 ">
@@ -9,10 +12,13 @@ export default function Section4 () {
             {/* 2 nút ban điều hành + quản trị */}
             <div className="flex justify-center ">
               <div className="inline-flex justify-center py-2 p-2 border border-solid border-blue-800 rounded-md">
-                <button className="w-full px-20 py-2 bg-blue-800 text-white ">
+                <button 
+                onClick={() => setActive("button1")}
+                className={`w-full px-20 py-2 bg-blue-800 text-white ${Active === "button1" ? 'bg-blue-800 text-white' : 'bg-[#FFFFF1] text-[#0213B0]'}`}>
                   <span>Ban điều hành</span>
                 </button>
-                <button className="w-full px-20 py-2 whitespace-nowrap">
+                <button onClick={() => setActive("button2")}
+                className={`w-full px-20 py-2 whitespace-nowrap ${Active === "button2" ? 'bg-blue-800 text-white' : 'bg-[#FFFFF1] text-[#0213B0]'}`}>
                   <span>Hội đồng quản trị</span>
                 </button>
               </div>
